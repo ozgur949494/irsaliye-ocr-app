@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>İrsaliye OCR</title>
+    <style>
+        body { font-family: sans-serif; max-width: 500px; margin: 40px auto; padding: 20px; text-align: center; }
+        input[type="file"] { margin: 20px 0; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h2>İrsaliye Yükle</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="irsaliye" accept="image/*" required><br>
+        <button type="submit">Excel'e Dönüştür</button>
+    </form>
+</body>
+</html>
