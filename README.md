@@ -1,0 +1,1 @@
+# irsaliye-ocr-app
